@@ -1,0 +1,55 @@
+# Requirements
+
+This document describes the minimum requirements for OMD applications.
+
+## OMD Coordinator / OMD Monitor
+
+* Chrome 84 or higher and Firefox 79 or higher
+* Support for Internet Explorer, Safari and Edge has been discontinued starting with OMD Coordinator Build 17
+
+## OMD Mobile for Android {#android}
+
+* Android 5.1.1 or higher
+* Resolution 420 pixels (portrait)
+* Usage of battery may vary, depending on parallel usage of navigation or other battery-consuming applications
+* Data traffic and memory requirements depend on amount of task, task attachments and product data. Please consult us for details.
+* The device must support TLS 1.2 or higher. Read <a href="https://crmalliance.atlassian.net/browse/BCAST-79">BCAST-79</a> for details on the SSL certificate used for encryption of HTTP communication.
+* Make sure that the device has installed the latest security updates. 
+
+Since 4 March 2020, we have increased the minimum requirements for OMD Mobile for Android to version 5.1.1 (Lollipop, API level 21).
+
+Since 1 January 2018, we have increased the minimum requirements for OMD Mobile for Android to version 4.4 (KitKat, API level 19). Devices with Android version 2.x, 3.x, 4.0-4.3.1 are not supported anymore with OMD Mobile for Android versions released 2018 or later.
+
+## OMD Mobile for HTML 5 {#html5}
+
+* Safari iOS 9.2, Chrome Version 47 or higher
+* Resolution 420 pixels portrait
+* Usage of battery may vary, depending on parallel usage of navigation or other battery-consuming applications
+* Data traffic depends on amount of task and task attachments. Please consult us for details.
+
+## OMD Scheduler
+
+* Windows 10, Windows Server 2012 or higher
+* Use the latest OpenJDK 8 msi installation pack hosted on [Gibhub](https://github.com/ojdkbuild/ojdkbuild). As of July 2020, this is [1.8.0_252-2.b09](https://github.com/ojdkbuild/ojdkbuild/releases/download/java-1.8.0-openjdk-1.8.0.252-2.b09/java-1.8.0-openjdk-1.8.0.252-2.b09.ojdkbuild.windows.x86_64.msi).
+* 1 GB memory
+* 2 GHz Processor
+* For Citrix environments, see details in <a href="../integration/assets/pdf/OMD Scheduler - Technical Reference Guide.pdf" target="_scheduler_technical_reference_guide">OMD Scheduler Technical Reference Guide</a> (PDF)
+  
+Oracle-based Java Runtime versions 7 and 8 are deprecated. Read [BCAST-49](https://crmalliance.atlassian.net/browse/BCAST-49) for more details.
+
+## OMD Web
+
+* Internet Explorer 8 or higher, Chrome, Safari or Firefox
+* Javascript must be enabled
+* Company firewall must support HTTP/HTTPS connections to any subdomain of optimizemyday.com
+
+## OMD Scheduler Applet
+
+* Discontinued starting from 1 January 2018. See [BCAST-23](https://crmalliance.atlassian.net/browse/BCAST-23) for more details.
+
+## OMD Scheduler Web Server
+
+* Servlet 2.4-compliant Java-based Web Server
+* 1 GB memory
+* Windows Server 2012 or higher
+* 2 GHz Processor
